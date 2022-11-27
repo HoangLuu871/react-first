@@ -1,0 +1,84 @@
+.signin {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.label {
+    color: #282c34;
+    align-self: flex-start;
+    font-size: 16px;
+}
+
+.input {
+    min-height: 25px;
+    width: 200px;
+    margin-top: 5px;
+    border-radius: 25px;
+    border: 1px solid #3e8ca1;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+}
+
+.input:focus {
+    border: 1px solid #132a30;
+}
+
+.button {
+    min-height: 40px;
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.button:hover {
+    background-color: #387b8e;
+}
+
+.button-solid {
+    background-color: #49a3bc;
+    color: white;
+    border: none;
+}
+
+.button-border {
+    background-color: white;
+    color: #49a3bc;
+    border: 1px solid #49a3bc;
+}
+
+.button-border:hover {
+    background-color: #49a3bc;
+    color: white;
+    border: 1px solid white;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    align-self: flex-start;
+    font-style: italic;
+    padding: 0;
+}
